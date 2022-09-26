@@ -1,6 +1,7 @@
 # Information-Retrieval-Rocchio-Algo
 
 Team Members:- Paras Tehria(pt2557), Sakshi Arora(sa3871)
+
 Files Submitting:- query_expander.py, requirements.txt, stopwords.csv, readme.txt
 
 For running:-
@@ -20,6 +21,7 @@ c.) If desired precision is not reached, run the rocchio's algorithm to find new
 d.) Continue the process till we reach the desired precision or current precision becomes 0
 
 Query modification method:-
+  
 We have used Rocchio's algorithm for query expansion. Rocchio's algorithm uses Vector Space Model
 with the idea that words in the relevant documents will be closer to the answer document. At each iteration,
 we remove some irrelevant document and include some words from relevant documents in the query. ALPHA and BETA params
